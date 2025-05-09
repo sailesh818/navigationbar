@@ -28,7 +28,9 @@ class _Home1PageState extends State<Home1Page> {
                   Navigator.push(
                     context,
                     MaterialPageRoute(
-                      builder: (context) => FoodsDetailsPage(food: food),
+                      builder: (context) {
+                        return Container();
+                      },
                     ),
                   );
                 },
